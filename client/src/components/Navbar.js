@@ -115,7 +115,7 @@ export const Navbar = () => {
                     {
                         localStorage.getItem("usertoken") ?
                             <div className='hidden md:block'>
-                                <div className='grid grid-cols-2 items-center gap-4'>
+                                <div className='grid grid-cols-2 items-center gap-4 font-bold italic'>
                                     Hello, {loginData && loginData.userName}
                                     <div onClick={logoutHandler} className='py-2 px-5 text-center border-2 bg-gray-200 cursor-pointer rounded  hover:py-[10px] hover:px-[15px] hover:bg-[#087658] hover:text-white transition-all duration-200 rounded-[8px]'>Logout</div>
                                 </div>
