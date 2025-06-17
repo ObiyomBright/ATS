@@ -47,8 +47,8 @@ export const AllJobs = () => {
                                         <thead>
                                             <tr>
                                                 <th className={tableHeaderCss}>Job Title</th>
-                                                <th className={`${tableHeaderCss} hidden md:table-cell`}>Salary</th>
                                                 <th className={`${tableHeaderCss} hidden md:table-cell`}>Location</th>
+                                                <th className={`${tableHeaderCss} hidden md:table-cell`}>Salary</th>
                                                 <th className={tableHeaderCss}></th>
                                             </tr>
                                         </thead>
@@ -100,10 +100,10 @@ function RenderTableRows({job}){
                 {job.salary}
             </td>
             <td className={`flex justify-between ${tableDataCss}`}>
-                <button>
+                {/* <button>
 
                     <box-icon name='edit'/>
-                </button>
+                </button> */}
                 <button>
                     
                     <box-icon name='trash' onClick={() => HandlerDeleteJob(job._id)} />
