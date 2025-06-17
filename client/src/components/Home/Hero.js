@@ -14,15 +14,15 @@ export const Hero = () => {
         <div className='grid my-32 md:grid-cols-2 gap-4 justify-center items-center'>
 
           <div>
-            <h1 className='text-5xl font-bold text-primary mb-3'>Find your job today!</h1>
-            <p className='text-lg text-black mb-8'>Lorem ipsum lorem ipsum lorem ipsum</p>
-            <button className='bg-secondary text-white py-3 px-12 rounded-md'>Get Started</button>
+            <h1 className='text-5xl font-bold text-primary mb-3'>Your Next Job Starts Now</h1>
+            <p className='text-lg text-black mb-8'>Your trusted partner in smart hiring and professional growth</p>
+            {/* <button className='bg-secondary text-white py-3 px-12 rounded-md'>Get Started</button> */}
 
           </div>
 
         </div>
 
-        <OurCompanies />
+        {/* <OurCompanies /> */}
 
       </div>
     </div>
