@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react'
+ import React, { useState, useContext, useEffect } from 'react'
 import { Outlet, NavLink, Link } from 'react-router-dom'
 import { LoginContext } from '../components/ContextProvider/Context.js';
 import 'boxicons';
@@ -87,7 +87,7 @@ export const Navbar = () => {
 
             <nav className='flex justify-between items-center py-6'>
                 {/* BRAND */}
-                <NavLink to='/' className='flex items-center gap-2 text-2xl text-[#087658]'>
+                <NavLink to='/' className='flex items-center gap-2 text-2xl text-[#373BD7]'>
                     <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                         <img src={logoURL} className="rounded-full h-12 md:h-16" alt="Flowbite Logo" />
                     </a>
@@ -102,7 +102,7 @@ export const Navbar = () => {
                             <li key={path} className='text-base text-primary'>
                                 <NavLink
                                     to={path}
-                                    className={({ isActive }) => isActive ? "subActive bg-[#087658] text-white font-bold py-[10px] px-[15px] rounded-[8px] hover:bg-white hover:text-[#087658] hover:font-bold transition-colors duration-200" : " hover:py-[10px] hover:px-[15px] hover:bg-[#087658] hover:text-white transition-all duration-200 rounded-[8px]"}
+                                    className={({ isActive }) => isActive ? "subActive bg-[#373BD7] text-white font-bold py-[10px] px-[15px] rounded-[8px] hover:bg-white hover:text-[#373BD7] hover:font-bold transition-colors duration-200" : " hover:py-[10px] hover:px-[15px] hover:bg-[#373BD7] hover:text-white transition-all duration-200 rounded-[8px]"}
                                 >
                                     <span>{label}</span>
                                 </NavLink>
@@ -117,7 +117,7 @@ export const Navbar = () => {
                             <div className='hidden md:block'>
                                 <div className='grid grid-cols-2 items-center gap-4 font-bold italic'>
                                     Hello, {loginData && loginData.userName}
-                                    <div onClick={logoutHandler} className='py-2 px-5 text-center border-2 bg-gray-200 cursor-pointer rounded  hover:py-[10px] hover:px-[15px] hover:bg-[#087658] hover:text-white transition-all duration-200 rounded-[8px]'>Logout</div>
+                                    <div onClick={logoutHandler} className='py-2 px-5 text-center border-2 bg-gray-200 cursor-pointer rounded  hover:py-[10px] hover:px-[15px] hover:bg-[#373BD7] hover:text-white transition-all duration-200 rounded-[8px]'>Logout</div>
                                 </div>
                             </div>
                             :
