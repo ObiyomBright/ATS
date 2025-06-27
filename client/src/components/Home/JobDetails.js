@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import LogoURL from '../../assets/img/logo.jpeg'
+import LogoURL from '../../assets/img/rafiki.png'
 import { useForm } from 'react-hook-form'
 import { SimilarJobs } from '../SimilarJobs'
 

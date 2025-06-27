@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logoURL from '../../assets/img/logo.jpeg'
+import logoURL from '../../assets/img/rafiki.png'
 
 export const FeaturedJobs = () => {
 
@@ -51,7 +51,7 @@ function Card({ job }) {
                     <span className='pl-2'>{job.location} </span>
                 </div>
                 <Link to={`/current-job/${job._id}`}>
-                    <button className='hidden lg:block bg-primary text-white text-sm py-1 px-4 rounded-md'>Apply Now</button>
+                    <button className='hidden lg:block bg-[#373BD7] text-white text-sm py-1 px-4 rounded-md  hover:border-[#373BD7] hover:bg-white hover:text-[#373BD7] transition-colors duration-200'>Apply Now</button>
                 </Link>
                             
             </div>

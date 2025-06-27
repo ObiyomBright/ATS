@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logoURL from '../assets/img/logo.jpeg'
+import logoURL from '../assets/img/rafiki.png'
 
 export const AllPostedJobs = () => {
 

@@ -84,7 +84,7 @@ export const PostJob = () => {
                                 <input type='text' required {...register("location")} placeholder='Ex: Hyderabad' className='create-job-input placeholder:text-xs md:placeholder:text-sm'></input>
                             </div>
                             <div>
-                                <label className='block m-1 text-md'>Expected Salary <span className='text-sm'>(in LPA)</span></label>
+                                <label className='block m-1 text-md'>Expected Salary <span className='text-sm'>( <b>$/hr </b>)</span></label>
                                 <input type='text' required {...register("salary")} placeholder='Ex: 20' className='create-job-input placeholder:text-xs md:placeholder:text-sm'></input>
                             </div>
                             <div>

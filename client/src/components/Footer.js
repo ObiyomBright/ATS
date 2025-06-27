@@ -1,5 +1,5 @@
 import React from 'react'
-import logoURL from '../assets/img/logo.jpeg'
+import logoURL from '../assets/img/rafiki.png'
 
 export const Footer = () => {
 

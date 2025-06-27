@@ -91,7 +91,7 @@ export const Navbar = () => {
                     <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                         <img src={logoURL} className="rounded-full h-12 md:h-16" alt="Flowbite Logo" />
                     </a>
-                    <span className='font-extrabold text-xl md:text-3xl'>WizSmartHR.com</span>
+                    {/* <span className='font-extrabold text-xl md:text-3xl'>WizSmartHR.com</span> */}
                 </NavLink>
 
                 {/* MAIN MENU - Lg device */}
